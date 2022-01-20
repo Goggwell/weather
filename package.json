@@ -1,5 +1,5 @@
 {
-  "name": "automate-prettier-eslint-with-husky",
+  "name": "react-typescript-starter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -52,7 +52,7 @@
   },
   "lint-staged": {
     "src/*.{ts,tsx}": [
-      "yarn prettier:fix",
+      "yarn prettier:fix && yarn prettier:check",
       "yarn lint"
     ]
   }
