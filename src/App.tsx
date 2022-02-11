@@ -17,8 +17,10 @@ function App() {
 
   return (
     <div className='app' data-theme={theme}>
-      <h1>Hello world!</h1>
-      <button onClick={switchTheme}>Howdy</button>
+      <div className='container'>
+        <h1>Hello world!</h1>
+        <button onClick={switchTheme}>Howdy</button>
+      </div>
     </div>
   );
 }
